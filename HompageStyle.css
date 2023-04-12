@@ -1,0 +1,73 @@
+html{
+    background-color: #f6f2ed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    background: #3e3e3b;
+}
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+nav a{
+    color: #e7baa0;
+    text-decoration: none;
+}
+#mainPhoto{
+    width: 80%;
+    max-height: 40rem;
+}
+.mainPhoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutSisters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .grid-item {
+    padding: 20px;
+  }
+  .footer{
+    background-color: #3e3e3b;
+    padding: 150px;
+  }
+  .grid-item .quote{
+    vertical-align: top;
+  }
+  .grid-item img{
+    max-width: 20rem;
+    max-height: 22.5rem;
+  }
+  .icons{
+    margin-top: 9rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icons img{
+    max-width: 5rem;
+    max-height: 5rem;
+  }
+  .grid-item a{
+    color: #dfbdc4;
+  }
+  #logo{
+    max-width: 5rem;
+    max-height: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
