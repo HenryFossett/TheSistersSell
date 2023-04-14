@@ -36,3 +36,13 @@ nav a{
     margin-bottom: 0.5rem;
     display: block;
   }
+  .resources{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto; 
+    gap: 10px
+  }
+  .grid-item h2{
+    text-align: center;
+    color: #e7baa0;
+  }
