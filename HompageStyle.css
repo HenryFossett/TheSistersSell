@@ -72,3 +72,8 @@ nav a{
     margin-bottom: 0.5rem;
     display: block;
   }
+  .fb-page{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
