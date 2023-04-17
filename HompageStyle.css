@@ -1,5 +1,5 @@
 html{
-    background-color: #f6f2ed;
+    background-color: #f6f2edb7;
 }
 nav{
     display: flex;
@@ -45,6 +45,16 @@ nav a{
   .footer{
     background-color: #3e3e3b;
     padding: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  #footer-item{
+    text-align: center;
+    color: #b8b5b3;
+  }
+  #footer-item a{
+    color: #dfbdc4;
   }
   .grid-item .quote{
     vertical-align: top;
@@ -76,4 +86,27 @@ nav a{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+  button{
+    border-radius: 12px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #e7baa0;
+    border-color: #3e3e3b;
+    padding: 0.75rem;
+  }
+  a h3{
+    color: #3e3e3b;
+  }
+  .footer-brynn{
+    border-top: 0.25rem solid lightgrey;
+  }
+  .footer-amy{
+    border-top: 0.25rem solid lightgrey;
+  }
+  .footer-reviews{
+    border-bottom: 0.25rem solid lightgrey;
   }
