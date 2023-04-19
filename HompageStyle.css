@@ -33,6 +33,7 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.85;
 }
 .aboutSisters {
     display: grid;
@@ -42,8 +43,10 @@ nav a{
   .grid-item {
     padding: 20px;
   }
-  .footer{
+  footer{
     background-color: #3e3e3b;
+  }
+  .footer{
     padding: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -54,7 +57,7 @@ nav a{
     color: #b8b5b3;
   }
   #footer-item a{
-    color: #dfbdc4;
+    color: #cbb3b3;
   }
   .grid-item .quote{
     vertical-align: top;
@@ -102,11 +105,31 @@ nav a{
     color: #3e3e3b;
   }
   .footer-brynn{
-    border-top: 0.25rem solid lightgrey;
+    border-top: 0.25rem solid rgba(211, 211, 211, 0.281);
+    border-radius: 3px;
   }
   .footer-amy{
-    border-top: 0.25rem solid lightgrey;
+    border-top: 0.25rem solid rgba(211, 211, 211, 0.281);
+    border-radius: 3px;
   }
   .footer-reviews{
-    border-bottom: 0.25rem solid lightgrey;
+    border-bottom: 0.25rem solid rgba(211, 211, 211, 0.281);
+    border-radius: 3px;
+  }
+  .copyright{
+    border-top: 0.15rem solid rgba(211, 211, 211, 0.281);
+    border-radius: 2px;
+    width: 60%;
+    margin-left: 23.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .copyright a{
+    padding-top: 0.15rem;
+    color: #b8b5b3;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: lightgray underline;
   }
