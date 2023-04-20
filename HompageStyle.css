@@ -1,7 +1,7 @@
 html{
     background-color: #f6f2edb7;
 }
-nav{
+#navbar{
     display: flex;
     justify-content: space-between;
     justify-content: center;
@@ -10,6 +10,14 @@ nav{
     flex: 1;
     background: #3e3e3b;
     margin-bottom: 7rem;
+    box-shadow: 0px 0px 10px 1px;
+    position: sticky;
+}
+nav.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 ul{
     display: flex;
