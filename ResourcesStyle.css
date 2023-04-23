@@ -54,6 +54,33 @@ nav a{
     text-align: center;
     color: #e7baa0;
   }
+  .popup{
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+.open-popup{
+  visibility: visible;
+}
+.popup2{
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-popup2{
+visibility: visible;
+}
+#downloadIcon{
+ height: 1.25rem;
+}
+#buyGuide{
+  background-color: #e7baa0;
+  border: 2px solid #3e3e3b;
+  border-radius: 8px;
+  width: 12rem;
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
   footer{
     background-color: #252523;
   }

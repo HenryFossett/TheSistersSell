@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="ResourcesStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
     <nav id="navbar">
         <div class="logo">
             <a href="Homepage.html"><img id="logo" src="Images\logoNoBackground.png"></a>
@@ -16,21 +21,51 @@
         </ul>
     </div>
       </nav>
-</head>
-<body>
     <div class="resources">
         <div class="grid-item">
             <h2><u>Buyers' Guide</u></h2>
-            <p>Interested in buying?</p>
+            <button id="buyGuide" onclick="openPopup()">Interested in buying?</button>
+            <div class="popup">
+            <div class="popup" id="popup">
+                <h2>Download our Buyers' Guide!</h2>
+                <p>If you would like more information, please reach out!</p>
+                <button onclick="closePopup()" class="download">Download <img id="downloadIcon"src="Images\downloadicon.png" alt="download icon"></button>
+            </div>
         </div>
+    </div>
         <div class="grid-item">
             <h2><u>Sellers' Guide</u></h2>
-            <p>Interested in selling?</p>
+            <button id="buyGuide" onclick="openPopup2()">Interested in selling?</button>
+            <div class="popup2">
+                <div class="popup2" id="popup2">
+                    <h2>Download our Sellers' Guide!</h2>
+                    <p>If you would like more information, please reach out!</p>
+                    <button onclick="closePopup2()" class="download">Download <img id="downloadIcon"src="Images\downloadicon.png" alt="download icon"></button>
+                </div>
+            </div>
         </div>
         <div class="grid-item"><h2><u>Other Links</u></h2></div>
         <div class="grid-item"><h2><u>More Links</u></h2></div>
     </div>
     <script src="navbar.js"></script>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup")
+        }
+    </script>
+    <script>
+        let popup2 = document.getElementById("popup2");
+        function openPopup2(){
+            popup2.classList.add("open-popup2");
+        }
+        function closePopup2(){
+            popup2.classList.remove("open-popup2")
+        }
+    </script>
 </body>
 <footer>
     <div class="footer">
