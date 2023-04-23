@@ -46,7 +46,7 @@ nav a{
 }
 .aboutSisters {
     display: grid;
-    grid-template-columns: 1.1fr 1.1fr 0.5fr;
+    grid-template-columns: 1fr 1fr 0.5fr;
     grid-template-rows: auto auto;
   }
   .grid-item {

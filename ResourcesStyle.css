@@ -47,6 +47,9 @@ nav a{
     grid-template-rows: auto; 
     gap: 10px
   }
+  .grid-item{
+    text-align: center;
+  }
   .grid-item h2{
     text-align: center;
     color: #e7baa0;
